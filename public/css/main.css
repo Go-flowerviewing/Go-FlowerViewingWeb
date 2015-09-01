@@ -1,0 +1,49 @@
+body {
+	background-image: url("http://greenword.ru/images/2015/04/img_553501a30fcc6.jpg");
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#btn-container {
+    margin-top: 240px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.btn-ver1 {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+}
+
+.btn-ver2 {
+    margin-top: -20px;
+    position: relative;
+    display: inline-block;
+    width: 50%;
+}
+
+.btn-ver1 img {
+    width: 57%;
+}
+
+
+.btn-ver2 img {
+    width: 57%;
+}
+
+#title {
+    margin-left: 77%;
+}
+
+#title img {
+    width: 98%;
+}
