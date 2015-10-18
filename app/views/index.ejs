@@ -13,6 +13,16 @@
       </div>
       <div id="title"><img src="img/title.png" /></div>
     </div>
+    <script type="text/javascript">
+    	document.addEventListener('DOMContentLoaded', function(){
+			var img = new Image(); // document.createElement('img')
+			var imgURL = 'http://i.imgur.com/6HRqv7Y.jpg';
+			img.onload = function(){
+				document.querySelector('#container').style.backgroundImage = 'url('+imgURL+')';
+			};
+			img.src = imgURL;
+		});
+    	</script>
   </body>
 </html>
 
